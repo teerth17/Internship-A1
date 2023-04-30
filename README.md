@@ -1,4 +1,7 @@
 # Internship-A1
+deployed at : 0xB289760720eEfb02d17653b8C3171E7183304AE9.
+
+Etherscan link: [click here](https://sepolia.etherscan.io/address/0xB289760720eEfb02d17653b8C3171E7183304AE9#code)
 
 This is a sample project for demonstrating how to swap ETH for ERC20 tokens on Uniswap using Solidity smart contracts.
 
