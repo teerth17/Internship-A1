@@ -14,8 +14,8 @@ interface ERC20Swapper {
 }
 
 contract swapEther is ERC20Swapper {
-    // address of the Uniswap V2 Router contract on the Ethereum mainnet
-    address private constant UNISWAP_ROUTER_ADDRESS = 0xB26B2De65D07eBB5E54C7F6282424D3be670E1f0;
+    // address of the Uniswap V2 Router contract on the testnet
+    address private constant UNISWAP_ROUTER_ADDRESS = 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D;
     IUniswapV2Router02 private uniswapRouter = IUniswapV2Router02(UNISWAP_ROUTER_ADDRESS);
 
     function swapEtherToToken(
